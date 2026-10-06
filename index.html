@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Política de privacidad · VENDÚ</title>
+  <meta name="description" content="Política de privacidad de VENDÚ, la app que prepara anuncios de segunda mano a partir de tus fotos.">
+  <style>
+    :root { --bg:#FAF8F5; --ink:#121212; --muted:rgba(18,18,18,.65); --teal:#1A4D5E; --line:#E8E2D9; --card:#fff; }
+    * { box-sizing: border-box; }
+    body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.65 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    main { max-width:760px; margin:0 auto; padding:32px 20px 64px; }
+    nav { display:flex; gap:16px; flex-wrap:wrap; font-size:14px; margin-bottom:28px; }
+    nav a { color:var(--teal); text-decoration:none; font-weight:600; }
+    nav a:hover { text-decoration:underline; }
+    h1 { font:400 40px/1.15 Georgia, "Times New Roman", serif; letter-spacing:-.02em; margin:0 0 6px; }
+    h2 { font-size:20px; margin:36px 0 8px; color:var(--teal); }
+    p, li { margin:8px 0; }
+    ul { padding-left:22px; }
+    .meta { color:var(--muted); font-size:14px; margin-bottom:24px; }
+    table { width:100%; border-collapse:collapse; background:var(--card); border:1px solid var(--line); border-radius:12px; overflow:hidden; font-size:15px; }
+    th, td { text-align:left; vertical-align:top; padding:10px 12px; border-bottom:1px solid var(--line); }
+    th { background:#F1EEE9; font-size:13px; text-transform:uppercase; letter-spacing:.04em; }
+    tr:last-child td { border-bottom:0; }
+    .note { background:#E8F0F2; border-radius:12px; padding:12px 16px; font-size:15px; }
+    footer { margin-top:48px; color:var(--muted); font-size:14px; }
+    a { color:var(--teal); }
+  </style>
+</head>
+<body>
+<main>
+  <nav>
+    <a href="index.html">Español</a>
+    <a href="privacy-en.html">English</a>
+    <a href="eliminar-cuenta.html">Eliminar cuenta</a>
+  </nav>
+
+  <h1>Política de privacidad</h1>
+  <p class="meta">VENDÚ · Última actualización: 6 de octubre de 2026</p>
+
+  <h2>1. Quién es el responsable</h2>
+  <!-- REVISAR: sustituir por el nombre legal y el domicilio del titular si se desea indicarlos. -->
+  <p>La app <strong>VENDÚ</strong> está desarrollada y gestionada por <strong>AppIA Labs</strong>. Para cualquier asunto de privacidad puedes escribir a
+    <a href="mailto:appialabs.vendu@gmail.com">appialabs.vendu@gmail.com</a>.</p>
+
+  <h2>2. Qué es VENDÚ</h2>
+  <p>VENDÚ ayuda a vendedores de segunda mano a preparar anuncios: a partir de tus fotos, una inteligencia artificial redacta el título, la descripción y propone un precio. <strong>VENDÚ no publica nada por ti</strong> ni se conecta a tu cuenta de Vinted, Wallapop, Depop, eBay ni de ninguna otra plataforma: tú copias el texto y lo publicas tú.</p>
+
+  <h2>3. Qué datos tratamos y para qué</h2>
+  <table>
+    <thead><tr><th>Datos</th><th>Para qué</th><th>Dónde se tratan</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><strong>Cuenta de Google</strong>: correo, nombre, foto de perfil (si la tienes) y un identificador de usuario.</td>
+        <td>Iniciar sesión y reconocerte.</td>
+        <td>Firebase Authentication (Google).</td>
+      </tr>
+      <tr>
+        <td><strong>Fotos y datos del anuncio</strong> cuando pides un borrador con IA: hasta 3 fotos reducidas, y el idioma, país de venta y nivel de detalle que hayas elegido.</td>
+        <td>Que la IA escriba el borrador y proponga categoría y precio.</td>
+        <td>Se envían a nuestro servidor intermedio (Cloudflare) y de ahí a la API de Gemini (Google). <strong>No guardamos las fotos ni los textos generados.</strong></td>
+      </tr>
+      <tr>
+        <td><strong>Miniaturas de varias fotos</strong> (hasta 30) cuando usas «Varias prendas a la vez».</td>
+        <td>Agrupar las fotos por prenda.</td>
+        <td>Igual que lo anterior; no se guardan.</td>
+      </tr>
+      <tr>
+        <td><strong>Contador de uso</strong>: tu identificador de usuario y cuántos borradores con IA has generado cada mes y cuántas agrupaciones cada día.</td>
+        <td>Aplicar el límite de uso y evitar abusos.</td>
+        <td>Cloudflare (almacenamiento del Worker).</td>
+      </tr>
+      <tr>
+        <td><strong>Datos técnicos</strong> como la dirección IP y metadatos de las peticiones.</td>
+        <td>Funcionamiento y seguridad del servicio.</td>
+        <td>Los registran Google y Cloudflare como parte de sus servicios.</td>
+      </tr>
+      <tr>
+        <td><strong>En tu móvil</strong>: borradores, copias de tus fotos, plantillas, respuestas, y preferencias (idioma, país, nivel de detalle, firma, recordatorio).</td>
+        <td>Que la app funcione y recuerde tus ajustes.</td>
+        <td>Solo en tu dispositivo. No se envían a nuestros servidores.</td>
+      </tr>
+    </tbody>
+  </table>
+  <p>No recopilamos tu ubicación, tus contactos, datos de pago ni el identificador publicitario, y no mostramos publicidad.</p>
+
+  <h2>4. Permisos de tu dispositivo</h2>
+  <ul>
+    <li><strong>Cámara:</strong> para fotografiar tus prendas.</li>
+    <li><strong>Fotos y archivos:</strong> para elegir fotos de tu galería y, si lo pides, guardar en ella las fotos de un anuncio.</li>
+    <li><strong>Notificaciones:</strong> solo si activas el recordatorio diario; es opcional.</li>
+  </ul>
+  <p>Puedes retirarlos en cualquier momento desde los ajustes de tu móvil; algunas funciones dejarán de estar disponibles.</p>
+
+  <h2>5. Con quién compartimos los datos</h2>
+  <p>No vendemos tus datos ni los usamos para publicidad. Solo los tratan los proveedores que hacen posible el servicio:</p>
+  <ul>
+    <li><strong>Google</strong> (Firebase Authentication, inicio de sesión con Google y API de Gemini).</li>
+    <li><strong>Cloudflare</strong> (servidor intermedio que protege la clave de la IA y cuenta el uso).</li>
+  </ul>
+  <div class="note"><strong>Importante sobre la IA:</strong> actualmente usamos el nivel gratuito de la API de Gemini. Según las condiciones de Google para ese nivel, el contenido enviado puede utilizarse para mejorar sus productos. Si cambiamos de plan o de proveedor, actualizaremos esta política antes de aplicar el cambio.</div>
+
+  <h2>6. Base legal</h2>
+  <p>Tratamos tus datos para <strong>prestarte el servicio</strong> que solicitas (cuenta, generación de borradores), por nuestro <strong>interés legítimo</strong> en mantenerlo seguro y evitar abusos (límite de uso) y, en el caso de los permisos del dispositivo y las notificaciones, con tu <strong>consentimiento</strong>.</p>
+
+  <h2>7. Cuánto tiempo los conservamos</h2>
+  <ul>
+    <li>Los datos de tu cuenta y el contador de uso, <strong>hasta que elimines tu cuenta</strong>.</li>
+    <li>Las fotos y textos que se envían a la IA no se guardan en nuestros servidores. Google y Cloudflare los gestionan según sus propias condiciones.</li>
+    <li>Los datos de tu móvil, hasta que los borres o desinstales la app.</li>
+  </ul>
+
+  <h2>8. Transferencias internacionales</h2>
+  <p>Google y Cloudflare pueden tratar datos en servidores situados fuera del Espacio Económico Europeo. Lo hacen con garantías como las cláusulas contractuales tipo o el Marco de Privacidad de Datos UE-EE. UU., según cada proveedor.</p>
+
+  <h2>9. Tus derechos</h2>
+  <p>Puedes pedir el <strong>acceso, rectificación, supresión, limitación, portabilidad u oposición</strong> al tratamiento de tus datos escribiendo a <a href="mailto:appialabs.vendu@gmail.com">appialabs.vendu@gmail.com</a>. Si crees que no hemos atendido tus derechos, puedes reclamar ante la <a href="https://www.aepd.es" rel="noopener">Agencia Española de Protección de Datos</a>.</p>
+
+  <h2>10. Eliminar tu cuenta</h2>
+  <p>Puedes borrar tu cuenta y tus datos desde la propia app (<em>Perfil → Eliminar cuenta</em>) o solicitándolo por correo. Todos los detalles están en <a href="eliminar-cuenta.html">esta página</a>.</p>
+
+  <h2>11. Seguridad</h2>
+  <p>La clave de la IA nunca está en la app: se guarda en el servidor. Cada petición a nuestro servidor exige una sesión iniciada y verificada. Aun así, ningún sistema es infalible; si detectáramos una brecha que te afecte, te lo comunicaríamos según la ley.</p>
+
+  <h2>12. Menores</h2>
+  <p>VENDÚ no está dirigida a menores de 18 años y no recopilamos conscientemente datos de menores.</p>
+
+  <h2>13. Otras plataformas</h2>
+  <p>VENDÚ <strong>no está afiliada, patrocinada ni respaldada</strong> por Vinted, Wallapop, Depop, eBay ni Google. Sus nombres y marcas pertenecen a sus respectivos propietarios y se mencionan solo para indicar con qué plataformas puede usarse el texto generado.</p>
+
+  <h2>14. Cambios en esta política</h2>
+  <p>Si la modificamos, publicaremos aquí la nueva versión con su fecha y, si el cambio es importante, te avisaremos en la app.</p>
+
+  <h2>15. Contacto</h2>
+  <p><a href="mailto:appialabs.vendu@gmail.com">appialabs.vendu@gmail.com</a></p>
+
+  <footer>© VENDÚ · AppIA Labs</footer>
+</main>
+</body>
+</html>

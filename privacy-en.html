@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy · VENDÚ</title>
+  <meta name="description" content="Privacy policy of VENDÚ, the app that prepares second-hand listings from your photos.">
+  <style>
+    :root { --bg:#FAF8F5; --ink:#121212; --muted:rgba(18,18,18,.65); --teal:#1A4D5E; --line:#E8E2D9; --card:#fff; }
+    * { box-sizing: border-box; }
+    body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.65 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    main { max-width:760px; margin:0 auto; padding:32px 20px 64px; }
+    nav { display:flex; gap:16px; flex-wrap:wrap; font-size:14px; margin-bottom:28px; }
+    nav a { color:var(--teal); text-decoration:none; font-weight:600; }
+    h1 { font:400 40px/1.15 Georgia, "Times New Roman", serif; letter-spacing:-.02em; margin:0 0 6px; }
+    h2 { font-size:20px; margin:36px 0 8px; color:var(--teal); }
+    p, li { margin:8px 0; }
+    ul { padding-left:22px; }
+    .meta { color:var(--muted); font-size:14px; margin-bottom:24px; }
+    table { width:100%; border-collapse:collapse; background:var(--card); border:1px solid var(--line); border-radius:12px; overflow:hidden; font-size:15px; }
+    th, td { text-align:left; vertical-align:top; padding:10px 12px; border-bottom:1px solid var(--line); }
+    th { background:#F1EEE9; font-size:13px; text-transform:uppercase; letter-spacing:.04em; }
+    tr:last-child td { border-bottom:0; }
+    .note { background:#E8F0F2; border-radius:12px; padding:12px 16px; font-size:15px; }
+    footer { margin-top:48px; color:var(--muted); font-size:14px; }
+    a { color:var(--teal); }
+  </style>
+</head>
+<body>
+<main>
+  <nav>
+    <a href="index.html">Español</a>
+    <a href="privacy-en.html">English</a>
+    <a href="delete-account-en.html">Delete account</a>
+  </nav>
+
+  <h1>Privacy Policy</h1>
+  <p class="meta">VENDÚ · Last updated: 6 October 2026</p>
+
+  <h2>1. Who is responsible</h2>
+  <p>The <strong>VENDÚ</strong> app is developed and operated by <strong>AppIA Labs</strong>. For any privacy matter write to
+    <a href="mailto:appialabs.vendu@gmail.com">appialabs.vendu@gmail.com</a>.</p>
+
+  <h2>2. What VENDÚ is</h2>
+  <p>VENDÚ helps second-hand sellers prepare listings: from your photos, an AI writes the title and description and suggests a price. <strong>VENDÚ does not publish anything for you</strong> and does not connect to your Vinted, Wallapop, Depop, eBay or any other marketplace account: you copy the text and publish it yourself.</p>
+
+  <h2>3. Data we process and why</h2>
+  <table>
+    <thead><tr><th>Data</th><th>Purpose</th><th>Where it is processed</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><strong>Google account</strong>: email, name, profile picture (if any) and a user ID.</td>
+        <td>Sign you in and recognise you.</td>
+        <td>Firebase Authentication (Google).</td>
+      </tr>
+      <tr>
+        <td><strong>Photos and listing data</strong> when you ask for an AI draft: up to 3 downsized photos, plus the language, country and level of detail you chose.</td>
+        <td>Let the AI write the draft and suggest a category and price.</td>
+        <td>Sent to our intermediate server (Cloudflare) and then to the Gemini API (Google). <strong>We do not store the photos or the generated text.</strong></td>
+      </tr>
+      <tr>
+        <td><strong>Thumbnails of several photos</strong> (up to 30) when you use "Several items at once".</td>
+        <td>Group the photos by item.</td>
+        <td>Same as above; not stored.</td>
+      </tr>
+      <tr>
+        <td><strong>Usage counter</strong>: your user ID and how many AI drafts you generated each month and how many groupings each day.</td>
+        <td>Apply the usage limit and prevent abuse.</td>
+        <td>Cloudflare (Worker storage).</td>
+      </tr>
+      <tr>
+        <td><strong>Technical data</strong> such as IP address and request metadata.</td>
+        <td>Operation and security of the service.</td>
+        <td>Logged by Google and Cloudflare as part of their services.</td>
+      </tr>
+      <tr>
+        <td><strong>On your phone</strong>: drafts, copies of your photos, templates, replies and preferences (language, country, level of detail, signature, reminder).</td>
+        <td>Make the app work and remember your settings.</td>
+        <td>Only on your device. Not sent to our servers.</td>
+      </tr>
+    </tbody>
+  </table>
+  <p>We do not collect your location, contacts, payment data or advertising ID, and we show no ads.</p>
+
+  <h2>4. Device permissions</h2>
+  <ul>
+    <li><strong>Camera:</strong> to photograph your items.</li>
+    <li><strong>Photos and files:</strong> to pick photos from your gallery and, if you ask, save a listing's photos to it.</li>
+    <li><strong>Notifications:</strong> only if you turn on the daily reminder; optional.</li>
+  </ul>
+  <p>You can withdraw them at any time in your phone settings; some features will stop working.</p>
+
+  <h2>5. Who we share data with</h2>
+  <p>We do not sell your data or use it for advertising. Only the providers that make the service possible process it:</p>
+  <ul>
+    <li><strong>Google</strong> (Firebase Authentication, Sign in with Google and the Gemini API).</li>
+    <li><strong>Cloudflare</strong> (intermediate server that protects the AI key and counts usage).</li>
+  </ul>
+  <div class="note"><strong>Important about the AI:</strong> we currently use the free tier of the Gemini API. Under Google's terms for that tier, the content sent may be used to improve its products. If we change plan or provider, we will update this policy before applying the change.</div>
+
+  <h2>6. Legal basis</h2>
+  <p>We process your data to <strong>provide the service</strong> you request (account, draft generation), for our <strong>legitimate interest</strong> in keeping it secure and preventing abuse (usage limit) and, for device permissions and notifications, based on your <strong>consent</strong>.</p>
+
+  <h2>7. How long we keep it</h2>
+  <ul>
+    <li>Account data and the usage counter, <strong>until you delete your account</strong>.</li>
+    <li>Photos and text sent to the AI are not stored on our servers. Google and Cloudflare handle them under their own terms.</li>
+    <li>Data on your phone, until you delete it or uninstall the app.</li>
+  </ul>
+
+  <h2>8. International transfers</h2>
+  <p>Google and Cloudflare may process data on servers outside the European Economic Area, using safeguards such as standard contractual clauses or the EU-US Data Privacy Framework, depending on the provider.</p>
+
+  <h2>9. Your rights</h2>
+  <p>You can ask for <strong>access, rectification, erasure, restriction, portability or objection</strong> by writing to <a href="mailto:appialabs.vendu@gmail.com">appialabs.vendu@gmail.com</a>. If you believe we have not handled your rights properly you can complain to the <a href="https://www.aepd.es" rel="noopener">Spanish Data Protection Agency (AEPD)</a>.</p>
+
+  <h2>10. Deleting your account</h2>
+  <p>You can delete your account and data from within the app (<em>Profile → Delete account</em>) or by email. Details are on <a href="delete-account-en.html">this page</a>.</p>
+
+  <h2>11. Security</h2>
+  <p>The AI key is never in the app: it is kept on the server. Every request to our server requires a verified signed-in session. No system is infallible; if we detect a breach affecting you, we will notify you as required by law.</p>
+
+  <h2>12. Children</h2>
+  <p>VENDÚ is not directed to people under 18 and we do not knowingly collect data from minors.</p>
+
+  <h2>13. Other platforms</h2>
+  <p>VENDÚ is <strong>not affiliated with, sponsored by or endorsed by</strong> Vinted, Wallapop, Depop, eBay or Google. Their names and trademarks belong to their respective owners and are mentioned only to indicate where the generated text can be used.</p>
+
+  <h2>14. Changes to this policy</h2>
+  <p>If we change it, we will publish the new version here with its date and, for important changes, notify you in the app.</p>
+
+  <h2>15. Contact</h2>
+  <p><a href="mailto:appialabs.vendu@gmail.com">appialabs.vendu@gmail.com</a></p>
+
+  <footer>© VENDÚ · AppIA Labs</footer>
+</main>
+</body>
+</html>
